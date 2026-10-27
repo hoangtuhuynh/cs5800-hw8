@@ -1,0 +1,44 @@
+===== Food items with toppings =====
+
+  Burger                                               $5.99
+  Burger with Cheese, Bacon                            $7.99
+  Burger with Cheese, Cheese, Bacon, Ketchup, Onions   $9.49
+  Fries with Ketchup                                   $2.74
+  Fries with Cheese                                    $3.24
+  Hot Dog with Ketchup, Mustard, Onions                $4.49
+  Hot Dog                                              $3.49
+
+===== Orders with loyalty discounts =====
+
+Order for Alice (loyalty: None)
+  Burger                                                   $5.99
+  Fries with Ketchup                                       $2.74
+  Subtotal                                                 $8.73
+  None discount (0%)                                      -$0.00
+  Total                                                    $8.73
+
+Order for Bob (loyalty: Silver)
+  Hot Dog with Ketchup, Mustard, Onions                    $4.49
+  Hot Dog                                                  $3.49
+  Fries with Cheese                                        $3.24
+  Subtotal                                                $11.22
+  Silver discount (5%)                                    -$0.56
+  Total                                                   $10.66
+
+Order for Carol (loyalty: Gold)
+  Burger with Cheese, Bacon                                $7.99
+  Fries with Ketchup                                       $2.74
+  Hot Dog with Ketchup, Mustard, Onions                    $4.49
+  Subtotal                                                $15.22
+  Gold discount (10%)                                     -$1.52
+  Total                                                   $13.70
+
+Order for Dave (loyalty: Platinum)
+  Burger with Cheese, Cheese, Bacon, Ketchup, Onions       $9.49
+  Burger with Cheese, Cheese, Bacon, Ketchup, Onions       $9.49
+  Fries with Cheese                                        $3.24
+  Hot Dog with Ketchup, Mustard, Onions                    $4.49
+  Subtotal                                                $26.71
+  Platinum discount (15%)                                 -$4.01
+  Total                                                   $22.70
+

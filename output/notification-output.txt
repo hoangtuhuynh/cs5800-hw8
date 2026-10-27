@@ -1,0 +1,30 @@
+===== Part 1: Online and Cash on Delivery over Email and SMS =====
+
+Online (credit card) + Email:
+  [Email] To: alice@example.com | Subject: Payment update | Your credit card payment of $59.99 was received. Your order is being processed.
+
+Online (PayPal) + SMS:
+  [SMS] To: +1-555-0101 | Your PayPal payment of $24.50 was received. Your order is being processed.
+
+Cash on delivery + Email:
+  [Email] To: bob@example.com | Subject: Payment update | Your order is confirmed. Please have $35.00 in cash ready when the driver arrives.
+
+Cash on delivery + SMS:
+  [SMS] To: +1-555-0102 | Your order is confirmed. Please have $18.75 in cash ready when the driver arrives.
+
+===== Part 2: New payment type - Bitcoin =====
+
+Bitcoin + Email:
+  [Email] To: carol@example.com | Subject: Payment update | Your Bitcoin payment of $120.00 was detected. Your order ships once the transaction is confirmed on the blockchain.
+
+Bitcoin + SMS:
+  [SMS] To: +1-555-0103 | Your Bitcoin payment of $75.25 was detected. Your order ships once the transaction is confirmed on the blockchain.
+
+===== Part 3: New channel - Push =====
+
+Online (PayPal) + Push:
+  [Push] Device: dave-iphone | Your PayPal payment of $42.10 was received. Your order is being processed.
+
+Cash on delivery + Push:
+  [Push] Device: erin-pixel | Your order is confirmed. Please have $15.00 in cash ready when the driver arrives.
+
